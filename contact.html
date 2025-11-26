@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Reyzel Aniceto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="topnav">
+      <ul class="nav-left">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+      <ul class="nav-right">
+        <li><a href="works.html">Works</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="emblem">
+        <div class="emblem-top">GET IN TOUCH</div>
+        <div class="emblem-decor">✦</div>
+        <h1 class="name">CONTACT</h1>
+        <div class="emblem-decor bottom">✦</div>
+        <div class="emblem-bottom">LET'S WORK TOGETHER</div>
+      </div>
+    </div>
+  </section>
+
+  <main class="contact-page">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h2>Contact</h2>
+        <p>If you'd like to discuss a project, collaboration, or commission, send a message using the form or reach out directly:</p>
+
+        <address>
+          <p><strong>Email:</strong> <a href="mailto:anicetoreyzela@gmail.com">anicetoreyzela@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+639087291172">+63 908 729 1172</a></p>
+          <p class="muted">Metro Manila</p>
+        </address>
+
+        <p style="margin-top:12px;">Socials</p>
+        <ul>
+          <li><a href="https://www.instagram.com/illeastell/" aria-label="Instagram">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="contact-card contact-form">
+        <form action="mailto:anicetoreyzela@gmail.com" method="post" enctype="text/plain" onsubmit="alert('This will open your email client to send the message. Alternatively copy the email address to contact directly.');">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" required class="form-control" />
+
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" required class="form-control" />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required class="form-control"></textarea>
+
+          <div class="contact-actions">
+            <button class="more-btn btn btn-primary mt-2" type="submit">Send message</button>
+            <a class="more-btn btn btn-outline-secondary mt-2" href="mailto:anicetoreyzela@gmail.com" style="text-decoration:none; display:inline-block;">Email directly</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="brand-small">Reyzel Aniceto</p>
+        <p class="muted">Multimedia Artist</p>
+      </div>
+
+      <address class="footer-contact">
+        <p class="muted">Metro Manila</p>
+        <p class="muted">Email: <a href="mailto:anicetoreyzela@gmail.com">anicetoreyzela@gmail.com</a> <span aria-hidden="true">|</span> Phone: <a href="tel:+639087291172">+63 908 729 1172</a></p>
+      </address>
+    </div>
+
+    <div class="footer-decor" aria-hidden="true">
+      <svg viewBox="0 0 1200 60" preserveAspectRatio="xMidYMid meet" focusable="false">
+        <line x1="80" y1="30" x2="1120" y2="30" stroke="#cfb88d" stroke-width="2"/>
+        <polygon points="620,18 630,30 620,42 610,30" fill="#cfb88d"/>
+        <rect x="300" y="28" width="10" height="4" fill="#cfb88d"/>
+      </svg>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js.js"></script>
+</body>
+</html>

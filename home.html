@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reyzel Aniceto — Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="topnav">
+      <ul class="nav-left">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+      <ul class="nav-right">
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="emblem">
+        <div class="emblem-top">MULTIMEDIA ARTIST</div>
+        <div class="emblem-decor">✦</div>
+        <h1 class="name">REYZEL ANICETO</h1>
+        <div class="emblem-decor bottom">✦</div>
+        <div class="emblem-bottom">GRAPHIC DESIGNER</div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="work">
+      <h2 class="section-title">PREVIOUS WORK</h2>
+      <hr class="divider">
+
+      <div class="gallery">
+        <figure class="thumb" tabindex="0" data-title="Promotion Materials" data-desc="Digital illustration — Promotion Materials" data-large="ANICETO_PORTFOLIO/SAMPLE WORKS/pubmat.png">
+            <img src="ANICETO_PORTFOLIO/SAMPLE WORKS/pubmat.png"
+            alt="Promotion Materials — digital illustration"
+            class="thumb-img" />
+            <figcaption class="thumb-caption">PROMOTIONS</figcaption>
+        </figure>
+
+        <figure class="thumb" tabindex="0" data-title="Public Materials" data-desc="Designed public materials for school organizations." data-large="ANICETO_PORTFOLIO/SAMPLE WORKS/election.png">
+           <img src="ANICETO_PORTFOLIO/SAMPLE WORKS/election.png"
+            alt="Public materials design"
+            class="thumb-img" />
+          <figcaption class="thumb-caption">PUBMAT</figcaption>
+        </figure>
+
+        <figure class="thumb" tabindex="0" data-title="Logo Illustration" data-desc="Designed logos for events and businesses." data-large="ANICETO_PORTFOLIO/SAMPLE WORKS/logos.png">
+           <img src="ANICETO_PORTFOLIO/SAMPLE WORKS/logos.png"
+            alt="Logo examples"
+            class="thumb-img" />
+          <figcaption class="thumb-caption">LOGOS</figcaption>
+        </figure>
+
+        <figure class="thumb" tabindex="0" data-title="Events and Businesses" data-desc="Designed for events and businesses." data-large="ANICETO_PORTFOLIO/SAMPLE WORKS/prof.png">
+           <img src="ANICETO_PORTFOLIO/SAMPLE WORKS/prof.png"
+            alt="Events and business designs"
+            class="thumb-img" />
+          <figcaption class="thumb-caption">EVENTS & BUSINESS</figcaption>
+        </figure>
+      </div>
+
+      <div class="more-wrap">
+        <a href="works.html" class="more-btn" id="moreBtn"> VIEW MORE </a>
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p class="brand-small">Reyzel Aniceto</p>
+      <p class="muted">Multimedia Artist</p>
+    </div>
+
+    <address class="footer-contact">
+      <p class="muted">Metro Manila</p>
+      <p class="muted">
+        Email: <a href="mailto:anicetoreyzela@gmail.com">anicetoreyzela@gmail.com</a>
+        <span aria-hidden="true">|</span>
+        Phone: <a href="tel:+639087291172">+63 908 729 1172</a>
+      </p>
+    </address>
+  </div>
+
+  <div class="footer-decor" aria-hidden="true">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="xMidYMid meet" focusable="false">
+      <line x1="80" y1="30" x2="1120" y2="30" stroke="#cfb88d" stroke-width="2"/>
+      <polygon points="620,18 630,30 620,42 610,30" fill="#cfb88d"/>
+      <rect x="300" y="28" width="10" height="4" fill="#cfb88d"/>
+    </svg>
+  </div>
+</footer>
+
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Artwork preview" aria-modal="true">
+    <button class="lb-close" id="lbClose" aria-label="Close preview">✕</button>
+    
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image" title="Previous">‹</button>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next image" title="Next">›</button>
+
+    <div class="lb-content" id="lbContent" role="document">
+      <div id="lbImage" class="lb-image" aria-hidden="true"></div>
+      <div class="lb-meta">
+        <h3 id="lbTitle"></h3>
+        <p id="lbDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
